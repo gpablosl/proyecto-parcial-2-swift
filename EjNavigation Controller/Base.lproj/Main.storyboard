@@ -39,7 +39,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="celdaAlumno" rowHeight="200" id="1OL-kK-PoP" customClass="CeldaAlumnoController" customModule="EjNavigation_Controller" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="celdaAlumno" rowHeight="200" id="1OL-kK-PoP" customClass="CeldaNaveController" customModule="EjNavigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="343" height="200"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1OL-kK-PoP" id="FTN-43-EtY">
@@ -82,10 +82,8 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="imgNave" destination="2o8-TR-td2" id="h4f-Sh-MFc"/>
-                                            <outlet property="lblCarrera" destination="kdx-va-J2I" id="1sz-W7-VlJ"/>
                                             <outlet property="lblDesignacion" destination="kdx-va-J2I" id="nfL-JG-zfL"/>
                                             <outlet property="lblId" destination="edl-Ma-LN3" id="ihg-CU-c9i"/>
-                                            <outlet property="lblMatricula" destination="edl-Ma-LN3" id="pY1-s3-9Sc"/>
                                             <outlet property="lblNombre" destination="R2D-iK-Uy9" id="XBj-b7-xTD"/>
                                             <outlet property="lblTier" destination="5V3-hU-aoS" id="4vw-Nr-ClU"/>
                                             <segue destination="Oa6-Wj-Yv8" kind="show" id="gJa-u4-t1n"/>

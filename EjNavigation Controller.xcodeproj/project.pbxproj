@@ -73,8 +73,8 @@
 				3D2851EE28DCB35300DC51AA /* CeldaNaveController.swift */,
 				3D2851F028DCB46F00DC51AA /* AlumnoController.swift */,
 				3D20AD2E28E341F3005C2CF5 /* DetallesAlumnoController.swift */,
-				3D20AD3028E34E6D005C2CF5 /* Stats.swift */,
 				3D20AD3428E34FFD005C2CF5 /* CeldaMateriaController.swift */,
+				3D20AD3028E34E6D005C2CF5 /* Stats.swift */,
 			);
 			path = "EjNavigation Controller";
 			sourceTree = "<group>";
