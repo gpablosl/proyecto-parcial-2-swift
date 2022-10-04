@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		3D20AD2F28E341F3005C2CF5 /* DetallesAlumnoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D20AD2E28E341F3005C2CF5 /* DetallesAlumnoController.swift */; };
 		3D20AD3128E34E6D005C2CF5 /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D20AD3028E34E6D005C2CF5 /* Stats.swift */; };
-		3D20AD3528E34FFD005C2CF5 /* CeldaMateriaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D20AD3428E34FFD005C2CF5 /* CeldaMateriaController.swift */; };
+		3D20AD3528E34FFD005C2CF5 /* CeldaStatsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D20AD3428E34FFD005C2CF5 /* CeldaStatsController.swift */; };
 		3D2851DB28DCB16D00DC51AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2851DA28DCB16D00DC51AA /* AppDelegate.swift */; };
 		3D2851E028DCB16D00DC51AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D2851DE28DCB16D00DC51AA /* Main.storyboard */; };
 		3D2851E228DCB16F00DC51AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D2851E128DCB16F00DC51AA /* Assets.xcassets */; };
@@ -22,7 +22,7 @@
 /* Begin PBXFileReference section */
 		3D20AD2E28E341F3005C2CF5 /* DetallesAlumnoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesAlumnoController.swift; sourceTree = "<group>"; };
 		3D20AD3028E34E6D005C2CF5 /* Stats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stats.swift; sourceTree = "<group>"; };
-		3D20AD3428E34FFD005C2CF5 /* CeldaMateriaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaMateriaController.swift; sourceTree = "<group>"; };
+		3D20AD3428E34FFD005C2CF5 /* CeldaStatsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaStatsController.swift; sourceTree = "<group>"; };
 		3D2851D728DCB16D00DC51AA /* EjNavigation Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EjNavigation Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D2851DA28DCB16D00DC51AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D2851DF28DCB16D00DC51AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -73,7 +73,7 @@
 				3D2851EE28DCB35300DC51AA /* CeldaNaveController.swift */,
 				3D2851F028DCB46F00DC51AA /* AlumnoController.swift */,
 				3D20AD2E28E341F3005C2CF5 /* DetallesAlumnoController.swift */,
-				3D20AD3428E34FFD005C2CF5 /* CeldaMateriaController.swift */,
+				3D20AD3428E34FFD005C2CF5 /* CeldaStatsController.swift */,
 				3D20AD3028E34E6D005C2CF5 /* Stats.swift */,
 			);
 			path = "EjNavigation Controller";
@@ -156,7 +156,7 @@
 				3D2851ED28DCB1D900DC51AA /* Nave.swift in Sources */,
 				3D2851DB28DCB16D00DC51AA /* AppDelegate.swift in Sources */,
 				3D20AD3128E34E6D005C2CF5 /* Stats.swift in Sources */,
-				3D20AD3528E34FFD005C2CF5 /* CeldaMateriaController.swift in Sources */,
+				3D20AD3528E34FFD005C2CF5 /* CeldaStatsController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CeldaMateriaController: UITableViewCell {
+class CeldaStatsController: UITableViewCell {
 
     @IBOutlet weak var lblTier: UILabel!
     @IBOutlet weak var lblSalud: UILabel!

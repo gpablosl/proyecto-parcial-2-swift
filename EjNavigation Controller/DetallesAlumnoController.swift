@@ -51,7 +51,7 @@ class DetallesAlumnoController : UIViewController, UITableViewDelegate, UITableV
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let celda = tableView.dequeueReusableCell(withIdentifier: "celdaMateria") as? CeldaMateriaController
+        let celda = tableView.dequeueReusableCell(withIdentifier: "celdaStats") as? CeldaStatsController
         celda?.lblTier.text = nave!.stats[indexPath.row].tier
         celda?.lblSalud.text = nave!.stats[indexPath.row].salud
         celda?.lblDamage.text = nave!.stats[indexPath.row].dmg
