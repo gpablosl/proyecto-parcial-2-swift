@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EjNavigation Controller/CeldaAlumnoController.swift"
+            timestampString = "685989426.017957"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "CeldaAlumnoController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EjNavigation Controller/CeldaMateriaController.swift"
+            timestampString = "685989223.270376"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "CeldaMateriaController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EjNavigation Controller/CeldaNaveController.swift"
+            timestampString = "686587439.893576"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "CeldaNaveController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EjNavigation_Controller.CeldaNaveController.__deallocating_deinit"
+                  moduleName = "EjNavigation Controller"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ulsa/Downloads/proyecto_parcial_2/EjNavigation%20Controller/CeldaNaveController.swift"
+                  timestampString = "686592566.045995"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EjNavigation_Controller.CeldaNaveController.__allocating_init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; EjNavigation_Controller.CeldaNaveController"
+                  moduleName = "EjNavigation Controller"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ulsa/Downloads/proyecto_parcial_2/EjNavigation%20Controller/CeldaNaveController.swift"
+                  timestampString = "686592566.049606"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "13">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EjNavigation_Controller.CeldaNaveController.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; EjNavigation_Controller.CeldaNaveController"
+                  moduleName = "EjNavigation Controller"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ulsa/Downloads/proyecto_parcial_2/EjNavigation%20Controller/CeldaNaveController.swift"
+                  timestampString = "686592566.0513771"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EjNavigation_Controller.CeldaNaveController.__allocating_init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;EjNavigation_Controller.CeldaNaveController&gt;"
+                  moduleName = "EjNavigation Controller"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ulsa/Downloads/proyecto_parcial_2/EjNavigation%20Controller/CeldaNaveController.swift"
+                  timestampString = "686592566.053035"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EjNavigation_Controller.CeldaNaveController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;EjNavigation_Controller.CeldaNaveController&gt;"
+                  moduleName = "EjNavigation Controller"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ulsa/Downloads/proyecto_parcial_2/EjNavigation%20Controller/CeldaNaveController.swift"
+                  timestampString = "686592566.0545501"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "55">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
