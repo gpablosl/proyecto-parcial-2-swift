@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D20AD2F28E341F3005C2CF5 /* DetallesAlumnoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D20AD2E28E341F3005C2CF5 /* DetallesAlumnoController.swift */; };
+		3D20AD2F28E341F3005C2CF5 /* DetallesNaveController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D20AD2E28E341F3005C2CF5 /* DetallesNaveController.swift */; };
 		3D20AD3128E34E6D005C2CF5 /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D20AD3028E34E6D005C2CF5 /* Stats.swift */; };
 		3D20AD3528E34FFD005C2CF5 /* CeldaStatsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D20AD3428E34FFD005C2CF5 /* CeldaStatsController.swift */; };
 		3D2851DB28DCB16D00DC51AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2851DA28DCB16D00DC51AA /* AppDelegate.swift */; };
@@ -16,11 +16,11 @@
 		3D2851E528DCB16F00DC51AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D2851E328DCB16F00DC51AA /* LaunchScreen.storyboard */; };
 		3D2851ED28DCB1D900DC51AA /* Nave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2851EC28DCB1D900DC51AA /* Nave.swift */; };
 		3D2851EF28DCB35300DC51AA /* CeldaNaveController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2851EE28DCB35300DC51AA /* CeldaNaveController.swift */; };
-		3D2851F128DCB46F00DC51AA /* AlumnoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2851F028DCB46F00DC51AA /* AlumnoController.swift */; };
+		3D2851F128DCB46F00DC51AA /* NaveController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2851F028DCB46F00DC51AA /* NaveController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3D20AD2E28E341F3005C2CF5 /* DetallesAlumnoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesAlumnoController.swift; sourceTree = "<group>"; };
+		3D20AD2E28E341F3005C2CF5 /* DetallesNaveController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesNaveController.swift; sourceTree = "<group>"; };
 		3D20AD3028E34E6D005C2CF5 /* Stats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stats.swift; sourceTree = "<group>"; };
 		3D20AD3428E34FFD005C2CF5 /* CeldaStatsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaStatsController.swift; sourceTree = "<group>"; };
 		3D2851D728DCB16D00DC51AA /* EjNavigation Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EjNavigation Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -31,7 +31,7 @@
 		3D2851E628DCB16F00DC51AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D2851EC28DCB1D900DC51AA /* Nave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nave.swift; sourceTree = "<group>"; };
 		3D2851EE28DCB35300DC51AA /* CeldaNaveController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaNaveController.swift; sourceTree = "<group>"; };
-		3D2851F028DCB46F00DC51AA /* AlumnoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlumnoController.swift; sourceTree = "<group>"; };
+		3D2851F028DCB46F00DC51AA /* NaveController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaveController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +71,8 @@
 				3D2851E628DCB16F00DC51AA /* Info.plist */,
 				3D2851EC28DCB1D900DC51AA /* Nave.swift */,
 				3D2851EE28DCB35300DC51AA /* CeldaNaveController.swift */,
-				3D2851F028DCB46F00DC51AA /* AlumnoController.swift */,
-				3D20AD2E28E341F3005C2CF5 /* DetallesAlumnoController.swift */,
+				3D2851F028DCB46F00DC51AA /* NaveController.swift */,
+				3D20AD2E28E341F3005C2CF5 /* DetallesNaveController.swift */,
 				3D20AD3428E34FFD005C2CF5 /* CeldaStatsController.swift */,
 				3D20AD3028E34E6D005C2CF5 /* Stats.swift */,
 			);
@@ -150,9 +150,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D20AD2F28E341F3005C2CF5 /* DetallesAlumnoController.swift in Sources */,
+				3D20AD2F28E341F3005C2CF5 /* DetallesNaveController.swift in Sources */,
 				3D2851EF28DCB35300DC51AA /* CeldaNaveController.swift in Sources */,
-				3D2851F128DCB46F00DC51AA /* AlumnoController.swift in Sources */,
+				3D2851F128DCB46F00DC51AA /* NaveController.swift in Sources */,
 				3D2851ED28DCB1D900DC51AA /* Nave.swift in Sources */,
 				3D2851DB28DCB16D00DC51AA /* AppDelegate.swift in Sources */,
 				3D20AD3128E34E6D005C2CF5 /* Stats.swift in Sources */,
