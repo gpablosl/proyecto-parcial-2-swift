@@ -48,7 +48,7 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="4Vc-Tc-16y" userLabel="Tv Naves">
                                 <rect key="frame" x="0.0" y="32" width="375" height="667"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="separatorColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="celdaNave" rowHeight="200" id="1OL-kK-PoP" customClass="CeldaNaveController" customModule="EjNavigation_Controller" customModuleProvider="target">
@@ -148,7 +148,9 @@
                             </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="sPb-Gl-ODO">
                                 <rect key="frame" x="32" y="352.5" width="311" height="245"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="separatorColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="sectionIndexBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="celdaStats" rowHeight="192" id="Xd3-nl-1Uj" userLabel="celdaStats" customClass="CeldaStatsController" customModule="EjNavigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="311" height="192"/>
@@ -159,66 +161,77 @@
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="afe-1G-uxr">
                                                     <rect key="frame" x="0.0" y="-0.5" width="311" height="191.5"/>
+                                                    <subviews>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="tyI-Vs-kDe">
+                                                            <rect key="frame" x="0.0" y="0.0" width="311" height="191.5"/>
+                                                        </imageView>
+                                                    </subviews>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstItem="tyI-Vs-kDe" firstAttribute="centerX" secondItem="afe-1G-uxr" secondAttribute="centerX" id="TqZ-N6-j17"/>
+                                                        <constraint firstItem="tyI-Vs-kDe" firstAttribute="height" secondItem="afe-1G-uxr" secondAttribute="height" id="apV-TJ-hhU"/>
+                                                        <constraint firstItem="tyI-Vs-kDe" firstAttribute="centerY" secondItem="afe-1G-uxr" secondAttribute="centerY" id="kJz-5W-LVS"/>
+                                                        <constraint firstItem="tyI-Vs-kDe" firstAttribute="width" secondItem="afe-1G-uxr" secondAttribute="width" id="wZH-eB-uNB"/>
+                                                    </constraints>
                                                 </view>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tier" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sud-yo-3RM">
                                                     <rect key="frame" x="47.5" y="-76.5" width="311" height="191.5"/>
                                                     <fontDescription key="fontDescription" name="VCROSDMono" family="VCR OSD Mono" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Salud" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wci-bC-tbc">
-                                                    <rect key="frame" x="45" y="40.5" width="50" height="15"/>
+                                                    <rect key="frame" x="45" y="50" width="50" height="15"/>
                                                     <fontDescription key="fontDescription" name="VCROSDMono" family="VCR OSD Mono" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Valor Salud" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wwa-ma-KIP">
-                                                    <rect key="frame" x="190.5" y="40.5" width="110" height="15"/>
+                                                    <rect key="frame" x="190.5" y="50" width="110" height="15"/>
                                                     <fontDescription key="fontDescription" name="VCROSDMono" family="VCR OSD Mono" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Valor Daño" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dXs-QV-YtU">
-                                                    <rect key="frame" x="195.5" y="74" width="100" height="15"/>
+                                                    <rect key="frame" x="195.5" y="88.5" width="100" height="15"/>
                                                     <fontDescription key="fontDescription" name="VCROSDMono" family="VCR OSD Mono" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Valor Armadura" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UUE-mZ-89U">
-                                                    <rect key="frame" x="175.5" y="102.5" width="140" height="15"/>
+                                                    <rect key="frame" x="175.5" y="122" width="140" height="15"/>
                                                     <fontDescription key="fontDescription" name="VCROSDMono" family="VCR OSD Mono" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Valor Tier" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5vM-xv-JQc">
                                                     <rect key="frame" x="195.5" y="11.5" width="100" height="15"/>
                                                     <fontDescription key="fontDescription" name="VCROSDMono" family="VCR OSD Mono" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Daño" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qyj-d2-u9M">
-                                                    <rect key="frame" x="50" y="72" width="40" height="15"/>
+                                                    <rect key="frame" x="50" y="88.5" width="40" height="15"/>
                                                     <fontDescription key="fontDescription" name="VCROSDMono" family="VCR OSD Mono" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Armadura" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZbT-ca-Of5">
-                                                    <rect key="frame" x="45.5" y="102.5" width="80" height="15"/>
+                                                    <rect key="frame" x="45.5" y="122" width="80" height="15"/>
                                                     <fontDescription key="fontDescription" name="VCROSDMono" family="VCR OSD Mono" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Escudos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vM3-ru-ZQy">
-                                                    <rect key="frame" x="46" y="136.5" width="70" height="15"/>
+                                                    <rect key="frame" x="46" y="160" width="70" height="15"/>
                                                     <fontDescription key="fontDescription" name="VCROSDMono" family="VCR OSD Mono" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Valor Escudos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xVK-iV-wFs">
-                                                    <rect key="frame" x="180.5" y="136.5" width="130" height="15"/>
+                                                    <rect key="frame" x="180.5" y="160" width="130" height="15"/>
                                                     <fontDescription key="fontDescription" name="VCROSDMono" family="VCR OSD Mono" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -228,29 +241,30 @@
                                                 <constraint firstItem="vM3-ru-ZQy" firstAttribute="centerX" secondItem="ezR-tB-D2Q" secondAttribute="centerX" multiplier="0.52" id="BlV-hq-9K6"/>
                                                 <constraint firstItem="afe-1G-uxr" firstAttribute="centerX" secondItem="ezR-tB-D2Q" secondAttribute="centerX" id="D1Z-dL-3jS"/>
                                                 <constraint firstItem="dXs-QV-YtU" firstAttribute="centerX" secondItem="ezR-tB-D2Q" secondAttribute="centerX" multiplier="1.58" id="Fmo-1M-YyT"/>
-                                                <constraint firstItem="UUE-mZ-89U" firstAttribute="centerY" secondItem="ezR-tB-D2Q" secondAttribute="centerY" multiplier="1.15" id="N7Y-BX-xPv"/>
+                                                <constraint firstItem="UUE-mZ-89U" firstAttribute="centerY" secondItem="ezR-tB-D2Q" secondAttribute="centerY" multiplier="1.35" id="N7Y-BX-xPv"/>
                                                 <constraint firstItem="wci-bC-tbc" firstAttribute="centerX" secondItem="ezR-tB-D2Q" secondAttribute="centerX" multiplier="0.45" id="Ocj-sS-S9c"/>
-                                                <constraint firstItem="Wwa-ma-KIP" firstAttribute="centerY" secondItem="ezR-tB-D2Q" secondAttribute="centerY" multiplier="0.5" id="QCq-Kt-jMs"/>
+                                                <constraint firstItem="Wwa-ma-KIP" firstAttribute="centerY" secondItem="ezR-tB-D2Q" secondAttribute="centerY" multiplier="0.6" id="QCq-Kt-jMs"/>
                                                 <constraint firstItem="sud-yo-3RM" firstAttribute="centerY" secondItem="afe-1G-uxr" secondAttribute="centerY" multiplier="0.2" id="Qh1-YJ-Yi1"/>
-                                                <constraint firstItem="wci-bC-tbc" firstAttribute="centerY" secondItem="ezR-tB-D2Q" secondAttribute="centerY" multiplier="0.5" id="U9l-Za-UgL"/>
-                                                <constraint firstItem="ZbT-ca-Of5" firstAttribute="centerY" secondItem="ezR-tB-D2Q" secondAttribute="centerY" multiplier="1.15" id="Wci-kv-Rdc"/>
-                                                <constraint firstItem="dXs-QV-YtU" firstAttribute="centerY" secondItem="ezR-tB-D2Q" secondAttribute="centerY" multiplier="0.85" id="Whk-BJ-RlY"/>
+                                                <constraint firstItem="wci-bC-tbc" firstAttribute="centerY" secondItem="ezR-tB-D2Q" secondAttribute="centerY" multiplier="0.6" id="U9l-Za-UgL"/>
+                                                <constraint firstItem="ZbT-ca-Of5" firstAttribute="centerY" secondItem="ezR-tB-D2Q" secondAttribute="centerY" multiplier="1.35" id="Wci-kv-Rdc"/>
+                                                <constraint firstItem="dXs-QV-YtU" firstAttribute="centerY" secondItem="ezR-tB-D2Q" secondAttribute="centerY" id="Whk-BJ-RlY"/>
                                                 <constraint firstItem="afe-1G-uxr" firstAttribute="width" secondItem="ezR-tB-D2Q" secondAttribute="width" id="X97-vj-4tb"/>
                                                 <constraint firstItem="Qyj-d2-u9M" firstAttribute="centerX" secondItem="ezR-tB-D2Q" secondAttribute="centerX" multiplier="0.45" id="Z5u-EV-Equ"/>
                                                 <constraint firstItem="UUE-mZ-89U" firstAttribute="centerX" secondItem="ezR-tB-D2Q" secondAttribute="centerX" multiplier="1.58" id="cF6-2M-4Ot"/>
                                                 <constraint firstItem="sud-yo-3RM" firstAttribute="width" secondItem="afe-1G-uxr" secondAttribute="width" id="duG-CV-Nbo"/>
                                                 <constraint firstItem="afe-1G-uxr" firstAttribute="centerY" secondItem="ezR-tB-D2Q" secondAttribute="centerY" id="e7g-Rq-hdP"/>
                                                 <constraint firstItem="5vM-xv-JQc" firstAttribute="centerX" secondItem="ezR-tB-D2Q" secondAttribute="centerX" multiplier="1.58" id="epn-1F-M3x"/>
-                                                <constraint firstItem="vM3-ru-ZQy" firstAttribute="centerY" secondItem="ezR-tB-D2Q" secondAttribute="centerY" multiplier="1.5" id="iwp-t4-ilE"/>
+                                                <constraint firstItem="vM3-ru-ZQy" firstAttribute="centerY" secondItem="ezR-tB-D2Q" secondAttribute="centerY" multiplier="1.75" id="iwp-t4-ilE"/>
                                                 <constraint firstItem="afe-1G-uxr" firstAttribute="height" secondItem="ezR-tB-D2Q" secondAttribute="height" id="l3i-LQ-Jbu"/>
                                                 <constraint firstItem="Wwa-ma-KIP" firstAttribute="centerX" secondItem="ezR-tB-D2Q" secondAttribute="centerX" multiplier="1.58" id="nTr-Z1-N4P"/>
                                                 <constraint firstItem="5vM-xv-JQc" firstAttribute="centerY" secondItem="ezR-tB-D2Q" secondAttribute="centerY" multiplier="0.2" id="uVb-4U-5j4"/>
-                                                <constraint firstItem="Qyj-d2-u9M" firstAttribute="centerY" secondItem="ezR-tB-D2Q" secondAttribute="centerY" multiplier="0.83" id="uef-hJ-9nn"/>
+                                                <constraint firstItem="Qyj-d2-u9M" firstAttribute="centerY" secondItem="ezR-tB-D2Q" secondAttribute="centerY" id="uef-hJ-9nn"/>
                                                 <constraint firstItem="xVK-iV-wFs" firstAttribute="centerX" secondItem="ezR-tB-D2Q" secondAttribute="centerX" multiplier="1.58" id="w8n-7U-5ds"/>
                                                 <constraint firstItem="sud-yo-3RM" firstAttribute="height" secondItem="afe-1G-uxr" secondAttribute="height" id="yGq-nd-JDy"/>
-                                                <constraint firstItem="xVK-iV-wFs" firstAttribute="centerY" secondItem="ezR-tB-D2Q" secondAttribute="centerY" multiplier="1.5" id="z0I-dY-SxN"/>
+                                                <constraint firstItem="xVK-iV-wFs" firstAttribute="centerY" secondItem="ezR-tB-D2Q" secondAttribute="centerY" multiplier="1.75" id="z0I-dY-SxN"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
                                             <outlet property="lblArmadura" destination="UUE-mZ-89U" id="XFA-py-Trc"/>
                                             <outlet property="lblDamage" destination="dXs-QV-YtU" id="OR1-FD-aTi"/>
