@@ -9,6 +9,9 @@
 import UIKit
 
 class NaveController: UIViewController, UITableViewDelegate, UITableViewDataSource{
+    
+
+    
     @IBOutlet weak var tvNaves: UITableView!
     
     var naves : [Nave] = []
@@ -30,11 +33,16 @@ class NaveController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        
         let celda = tableView.dequeueReusableCell(withIdentifier: "celdaNave") as? CeldaNaveController
             celda?.lblNombre.text = naves[indexPath.row].nombre
             celda?.lblId.text = naves[indexPath.row].id
             celda?.lblDesignacion.text = naves[indexPath.row].designacion
             celda?.lblTier.text = naves[indexPath.row].nivel
+            celda?.imgNave.layer.cornerRadius = 5
+            celda?.imgNave.layer.borderWidth = 5
+            celda?.imgNave.layer.borderColor = UIColor.white.cgColor
             celda?.imgNave.image = UIImage(named: naves[indexPath.row].imagen)
             return celda!
     }
@@ -49,6 +57,10 @@ class NaveController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navigationController?.navigationBar.barTintColor = UIColor.black
+        navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.white]
+
         
         naves.append(Nave(nombre: "Nave 1", designacion: "IFD-5", id: "32FWG6236A", nivel: "Nivel 1", armamento: "Laser", imagen: "Nave1", stats: []))
         

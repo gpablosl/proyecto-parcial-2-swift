@@ -17,13 +17,19 @@ class DetallesNaveController : UIViewController, UITableViewDelegate, UITableVie
     @IBOutlet weak var lblArmamento: UILabel!
     
     @IBOutlet weak var imgNave: UIImageView!
+    var sizeW = CGFloat()
+    var sizeH = CGFloat()
     
     var nave : Nave?
     
-    
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navigationController?.navigationBar.barTintColor = UIColor.black
+        navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.white]
+
         
         if nave != nil{
             self.title = nave?.nombre
@@ -31,6 +37,10 @@ class DetallesNaveController : UIViewController, UITableViewDelegate, UITableVie
             lblId.text = nave!.id
             lblNivel.text = nave!.nivel
             lblArmamento.text = nave!.armamento
+            
+            imgNave.layer.cornerRadius = 5
+            imgNave.layer.borderWidth = 3
+            imgNave.layer.borderColor = UIColor.white.cgColor
             imgNave.image = UIImage(named: "\(nave!.imagen)-2")
             
         }else{
