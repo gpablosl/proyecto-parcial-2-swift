@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2Rh-OI-01Z">
-    <device id="retina3_5" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2Rh-OI-01Z">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -18,7 +21,7 @@
             <objects>
                 <navigationController id="2Rh-OI-01Z" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Vif-jv-qpN">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -34,18 +37,18 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="NaveController" customModule="EjNavigation_Controller" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="4Vc-Tc-16y" userLabel="Tv Naves">
-                                <rect key="frame" x="0.0" y="22" width="320" height="480"/>
+                                <rect key="frame" x="0.0" y="32" width="414" height="736"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="celdaNave" rowHeight="200" id="1OL-kK-PoP" customClass="CeldaNaveController" customModule="EjNavigation_Controller" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="320" height="200"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="200"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1OL-kK-PoP" id="FTN-43-EtY">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="199.66666666666666"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nombre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R2D-iK-Uy9">
@@ -77,7 +80,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2o8-TR-td2">
-                                                    <rect key="frame" x="166" y="25" width="116" height="150"/>
+                                                    <rect key="frame" x="194.66666666666669" y="25" width="135.66666666666669" height="150"/>
                                                 </imageView>
                                             </subviews>
                                             <constraints>
@@ -126,91 +129,113 @@
             <objects>
                 <viewController id="Oa6-Wj-Yv8" customClass="DetallesNaveController" customModule="EjNavigation_Controller" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="468-vq-mt9">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="sPb-Gl-ODO">
-                                <rect key="frame" x="27.5" y="252.5" width="265" height="176"/>
+                                <rect key="frame" x="35.666666666666657" y="385" width="343" height="270"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="celdaStats" rowHeight="192" id="Xd3-nl-1Uj" userLabel="celdaStats" customClass="CeldaStatsController" customModule="EjNavigation_Controller" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="265" height="192"/>
+                                        <rect key="frame" x="0.0" y="28" width="343" height="192"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Xd3-nl-1Uj" id="ezR-tB-D2Q">
-                                            <rect key="frame" x="0.0" y="0.0" width="265" height="192"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="343" height="191.66666666666666"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tier" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sud-yo-3RM">
-                                                    <rect key="frame" x="66" y="11" width="40" height="15"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="afe-1G-uxr">
+                                                    <rect key="frame" x="0.0" y="-0.6666666666666714" width="343" height="191.66666666666669"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tier" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sud-yo-3RM">
+                                                    <rect key="frame" x="52.333333333333343" y="-76.666666666666671" width="343" height="191.66666666666666"/>
                                                     <fontDescription key="fontDescription" name="VCROSDMono" family="VCR OSD Mono" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Salud" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wci-bC-tbc">
-                                                    <rect key="frame" x="66" y="40" width="50" height="15"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Salud" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wci-bC-tbc">
+                                                    <rect key="frame" x="52.333333333333343" y="40.666666666666664" width="50" height="15"/>
                                                     <fontDescription key="fontDescription" name="VCROSDMono" family="VCR OSD Mono" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Valor Salud" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wwa-ma-KIP">
-                                                    <rect key="frame" x="187" y="40" width="156" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Valor Salud" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wwa-ma-KIP">
+                                                    <rect key="frame" x="216" y="40.666666666666664" width="110" height="15"/>
                                                     <fontDescription key="fontDescription" name="VCROSDMono" family="VCR OSD Mono" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Valor Daño" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dXs-QV-YtU">
-                                                    <rect key="frame" x="187" y="67" width="156" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Valor Daño" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dXs-QV-YtU">
+                                                    <rect key="frame" x="221" y="74" width="100" height="15"/>
                                                     <fontDescription key="fontDescription" name="VCROSDMono" family="VCR OSD Mono" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Valor Armadura" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UUE-mZ-89U">
-                                                    <rect key="frame" x="187" y="97" width="156" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Valor Armadura" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UUE-mZ-89U">
+                                                    <rect key="frame" x="201" y="102.66666666666667" width="140" height="15"/>
                                                     <fontDescription key="fontDescription" name="VCROSDMono" family="VCR OSD Mono" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Valor Tier" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5vM-xv-JQc">
-                                                    <rect key="frame" x="187" y="11" width="156" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Valor Tier" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5vM-xv-JQc">
+                                                    <rect key="frame" x="221" y="11.666666666666664" width="100" height="15"/>
                                                     <fontDescription key="fontDescription" name="VCROSDMono" family="VCR OSD Mono" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Daño" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qyj-d2-u9M">
-                                                    <rect key="frame" x="66" y="68" width="40" height="15"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Daño" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qyj-d2-u9M">
+                                                    <rect key="frame" x="57.333333333333343" y="72" width="40" height="15"/>
                                                     <fontDescription key="fontDescription" name="VCROSDMono" family="VCR OSD Mono" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Armadura" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZbT-ca-Of5">
-                                                    <rect key="frame" x="66" y="97" width="80" height="15"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Armadura" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZbT-ca-Of5">
+                                                    <rect key="frame" x="54.333333333333343" y="102.66666666666667" width="80" height="15"/>
                                                     <fontDescription key="fontDescription" name="VCROSDMono" family="VCR OSD Mono" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Escudos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vM3-ru-ZQy">
-                                                    <rect key="frame" x="66" y="126" width="70" height="15"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Escudos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vM3-ru-ZQy">
+                                                    <rect key="frame" x="54.333333333333343" y="136.66666666666666" width="70" height="15"/>
                                                     <fontDescription key="fontDescription" name="VCROSDMono" family="VCR OSD Mono" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Valor Escudos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xVK-iV-wFs">
-                                                    <rect key="frame" x="187" y="126" width="156" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Valor Escudos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xVK-iV-wFs">
+                                                    <rect key="frame" x="206" y="136.66666666666666" width="130" height="15"/>
                                                     <fontDescription key="fontDescription" name="VCROSDMono" family="VCR OSD Mono" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="sud-yo-3RM" firstAttribute="centerX" secondItem="afe-1G-uxr" secondAttribute="centerX" multiplier="1.3" id="0bb-uJ-fns"/>
+                                                <constraint firstItem="ZbT-ca-Of5" firstAttribute="centerX" secondItem="ezR-tB-D2Q" secondAttribute="centerX" multiplier="0.55" id="5jM-g8-2be"/>
+                                                <constraint firstItem="vM3-ru-ZQy" firstAttribute="centerX" secondItem="ezR-tB-D2Q" secondAttribute="centerX" multiplier="0.52" id="BlV-hq-9K6"/>
+                                                <constraint firstItem="afe-1G-uxr" firstAttribute="centerX" secondItem="ezR-tB-D2Q" secondAttribute="centerX" id="D1Z-dL-3jS"/>
+                                                <constraint firstItem="dXs-QV-YtU" firstAttribute="centerX" secondItem="ezR-tB-D2Q" secondAttribute="centerX" multiplier="1.58" id="Fmo-1M-YyT"/>
+                                                <constraint firstItem="UUE-mZ-89U" firstAttribute="centerY" secondItem="ezR-tB-D2Q" secondAttribute="centerY" multiplier="1.15" id="N7Y-BX-xPv"/>
+                                                <constraint firstItem="wci-bC-tbc" firstAttribute="centerX" secondItem="ezR-tB-D2Q" secondAttribute="centerX" multiplier="0.45" id="Ocj-sS-S9c"/>
+                                                <constraint firstItem="Wwa-ma-KIP" firstAttribute="centerY" secondItem="ezR-tB-D2Q" secondAttribute="centerY" multiplier="0.5" id="QCq-Kt-jMs"/>
+                                                <constraint firstItem="sud-yo-3RM" firstAttribute="centerY" secondItem="afe-1G-uxr" secondAttribute="centerY" multiplier="0.2" id="Qh1-YJ-Yi1"/>
+                                                <constraint firstItem="wci-bC-tbc" firstAttribute="centerY" secondItem="ezR-tB-D2Q" secondAttribute="centerY" multiplier="0.5" id="U9l-Za-UgL"/>
+                                                <constraint firstItem="ZbT-ca-Of5" firstAttribute="centerY" secondItem="ezR-tB-D2Q" secondAttribute="centerY" multiplier="1.15" id="Wci-kv-Rdc"/>
+                                                <constraint firstItem="dXs-QV-YtU" firstAttribute="centerY" secondItem="ezR-tB-D2Q" secondAttribute="centerY" multiplier="0.85" id="Whk-BJ-RlY"/>
+                                                <constraint firstItem="afe-1G-uxr" firstAttribute="width" secondItem="ezR-tB-D2Q" secondAttribute="width" id="X97-vj-4tb"/>
+                                                <constraint firstItem="Qyj-d2-u9M" firstAttribute="centerX" secondItem="ezR-tB-D2Q" secondAttribute="centerX" multiplier="0.45" id="Z5u-EV-Equ"/>
+                                                <constraint firstItem="UUE-mZ-89U" firstAttribute="centerX" secondItem="ezR-tB-D2Q" secondAttribute="centerX" multiplier="1.58" id="cF6-2M-4Ot"/>
+                                                <constraint firstItem="sud-yo-3RM" firstAttribute="width" secondItem="afe-1G-uxr" secondAttribute="width" id="duG-CV-Nbo"/>
+                                                <constraint firstItem="afe-1G-uxr" firstAttribute="centerY" secondItem="ezR-tB-D2Q" secondAttribute="centerY" id="e7g-Rq-hdP"/>
+                                                <constraint firstItem="5vM-xv-JQc" firstAttribute="centerX" secondItem="ezR-tB-D2Q" secondAttribute="centerX" multiplier="1.58" id="epn-1F-M3x"/>
+                                                <constraint firstItem="vM3-ru-ZQy" firstAttribute="centerY" secondItem="ezR-tB-D2Q" secondAttribute="centerY" multiplier="1.5" id="iwp-t4-ilE"/>
+                                                <constraint firstItem="afe-1G-uxr" firstAttribute="height" secondItem="ezR-tB-D2Q" secondAttribute="height" id="l3i-LQ-Jbu"/>
+                                                <constraint firstItem="Wwa-ma-KIP" firstAttribute="centerX" secondItem="ezR-tB-D2Q" secondAttribute="centerX" multiplier="1.58" id="nTr-Z1-N4P"/>
+                                                <constraint firstItem="5vM-xv-JQc" firstAttribute="centerY" secondItem="ezR-tB-D2Q" secondAttribute="centerY" multiplier="0.2" id="uVb-4U-5j4"/>
+                                                <constraint firstItem="Qyj-d2-u9M" firstAttribute="centerY" secondItem="ezR-tB-D2Q" secondAttribute="centerY" multiplier="0.83" id="uef-hJ-9nn"/>
+                                                <constraint firstItem="xVK-iV-wFs" firstAttribute="centerX" secondItem="ezR-tB-D2Q" secondAttribute="centerX" multiplier="1.58" id="w8n-7U-5ds"/>
+                                                <constraint firstItem="sud-yo-3RM" firstAttribute="height" secondItem="afe-1G-uxr" secondAttribute="height" id="yGq-nd-JDy"/>
+                                                <constraint firstItem="xVK-iV-wFs" firstAttribute="centerY" secondItem="ezR-tB-D2Q" secondAttribute="centerY" multiplier="1.5" id="z0I-dY-SxN"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="lblArmadura" destination="UUE-mZ-89U" id="XFA-py-Trc"/>
@@ -227,57 +252,57 @@
                                 </connections>
                             </tableView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dvn-sb-iql">
-                                <rect key="frame" x="27.5" y="167" width="265" height="74.5"/>
+                                <rect key="frame" x="35.666666666666657" y="255" width="343" height="114"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Designacion" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IVP-bb-N7P">
-                                        <rect key="frame" x="39" y="9.5" width="92" height="11"/>
-                                        <fontDescription key="fontDescription" name="VCROSDMono" family="VCR OSD Mono" pointSize="17"/>
+                                        <rect key="frame" x="50.666666666666664" y="13.666666666666684" width="118.66666666666669" height="17.333333333333329"/>
+                                        <fontDescription key="fontDescription" name="VCROSDMono" family="VCR OSD Mono" pointSize="15"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Id" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TwA-pU-03w">
-                                        <rect key="frame" x="37" y="24.5" width="58" height="11"/>
-                                        <fontDescription key="fontDescription" name="VCROSDMono" family="VCR OSD Mono" pointSize="17"/>
+                                        <rect key="frame" x="48" y="36.333333333333314" width="75" height="17"/>
+                                        <fontDescription key="fontDescription" name="VCROSDMono" family="VCR OSD Mono" pointSize="15"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nivel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4JK-nc-gxq">
-                                        <rect key="frame" x="38" y="39" width="69.5" height="11.5"/>
-                                        <fontDescription key="fontDescription" name="VCROSDMono" family="VCR OSD Mono" pointSize="17"/>
+                                        <rect key="frame" x="48.666666666666664" y="59.333333333333307" width="90.666666666666686" height="17.666666666666664"/>
+                                        <fontDescription key="fontDescription" name="VCROSDMono" family="VCR OSD Mono" pointSize="15"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Armamento" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RbT-cM-Hiy">
-                                        <rect key="frame" x="36.5" y="54" width="70" height="11.5"/>
-                                        <fontDescription key="fontDescription" name="VCROSDMono" family="VCR OSD Mono" pointSize="17"/>
+                                        <rect key="frame" x="47.333333333333336" y="82.333333333333314" width="90.333333333333314" height="17"/>
+                                        <fontDescription key="fontDescription" name="VCROSDMono" family="VCR OSD Mono" pointSize="15"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Designacion" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G6e-rv-4Dt">
-                                        <rect key="frame" x="176" y="15" width="159" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="VCROSDMono" family="VCR OSD Mono" pointSize="17"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Designacion" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G6e-rv-4Dt">
+                                        <rect key="frame" x="182.66666666666669" y="16" width="97" height="13"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="13.5" id="Cnc-F5-udF"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="97" id="uRL-ng-RJB"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="VCROSDMono" family="VCR OSD Mono" pointSize="15"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Valor de id" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pb6-Jh-dJm">
-                                        <rect key="frame" x="176" y="44" width="159" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="VCROSDMono" family="VCR OSD Mono" pointSize="17"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Valor de armam" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="640-fZ-oV1">
+                                        <rect key="frame" x="170" y="83.666666666666686" width="123" height="14"/>
+                                        <fontDescription key="fontDescription" name="VCROSDMono" family="VCR OSD Mono" pointSize="15"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Valor de nivel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jMM-i8-kHF">
-                                        <rect key="frame" x="176" y="73" width="150" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="VCROSDMono" family="VCR OSD Mono" pointSize="17"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Valor de id" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pb6-Jh-dJm">
+                                        <rect key="frame" x="182.66666666666669" y="38.666666666666686" width="97" height="14"/>
+                                        <fontDescription key="fontDescription" name="VCROSDMono" family="VCR OSD Mono" pointSize="15"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Valor de armam" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="640-fZ-oV1">
-                                        <rect key="frame" x="176" y="102" width="159" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="VCROSDMono" family="VCR OSD Mono" pointSize="17"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Valor de nivel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jMM-i8-kHF">
+                                        <rect key="frame" x="170" y="61" width="123" height="13"/>
+                                        <fontDescription key="fontDescription" name="VCROSDMono" family="VCR OSD Mono" pointSize="15"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -290,20 +315,28 @@
                                     <constraint firstItem="TwA-pU-03w" firstAttribute="height" secondItem="Dvn-sb-iql" secondAttribute="height" multiplier="0.151079" id="5n2-8w-B2P"/>
                                     <constraint firstItem="RbT-cM-Hiy" firstAttribute="centerY" secondItem="Dvn-sb-iql" secondAttribute="centerY" multiplier="1.6" id="692-zh-heh"/>
                                     <constraint firstItem="TwA-pU-03w" firstAttribute="centerY" secondItem="Dvn-sb-iql" secondAttribute="centerY" multiplier="0.8" id="8CL-wZ-8of"/>
+                                    <constraint firstItem="jMM-i8-kHF" firstAttribute="centerY" secondItem="Dvn-sb-iql" secondAttribute="centerY" multiplier="1.2" id="BEc-HX-BS2"/>
+                                    <constraint firstItem="Pb6-Jh-dJm" firstAttribute="centerX" secondItem="Dvn-sb-iql" secondAttribute="centerX" multiplier="1.35" id="CYv-9J-94F"/>
                                     <constraint firstItem="TwA-pU-03w" firstAttribute="width" secondItem="Dvn-sb-iql" secondAttribute="width" multiplier="0.218659" id="EQn-rZ-5jI"/>
                                     <constraint firstItem="4JK-nc-gxq" firstAttribute="width" secondItem="Dvn-sb-iql" secondAttribute="width" multiplier="0.262391" id="GKx-hA-hmC"/>
+                                    <constraint firstItem="G6e-rv-4Dt" firstAttribute="centerX" secondItem="Dvn-sb-iql" secondAttribute="centerX" multiplier="1.35" id="IMI-EI-LA0"/>
                                     <constraint firstItem="TwA-pU-03w" firstAttribute="centerX" secondItem="Dvn-sb-iql" secondAttribute="centerX" multiplier="0.5" id="QuT-9y-Ivy"/>
                                     <constraint firstItem="4JK-nc-gxq" firstAttribute="centerY" secondItem="Dvn-sb-iql" secondAttribute="centerY" multiplier="1.2" id="ZBB-ig-liK"/>
+                                    <constraint firstItem="640-fZ-oV1" firstAttribute="centerY" secondItem="Dvn-sb-iql" secondAttribute="centerY" multiplier="1.6" id="a5D-oR-ni7"/>
                                     <constraint firstItem="IVP-bb-N7P" firstAttribute="centerX" secondItem="Dvn-sb-iql" secondAttribute="centerX" multiplier="0.64" id="bBc-ok-61I"/>
+                                    <constraint firstItem="Pb6-Jh-dJm" firstAttribute="centerY" secondItem="Dvn-sb-iql" secondAttribute="centerY" multiplier="0.8" id="bzW-ZS-zMa"/>
                                     <constraint firstItem="RbT-cM-Hiy" firstAttribute="centerX" secondItem="Dvn-sb-iql" secondAttribute="centerX" multiplier="0.54" id="eYp-Ek-jlq"/>
+                                    <constraint firstItem="640-fZ-oV1" firstAttribute="centerX" secondItem="Dvn-sb-iql" secondAttribute="centerX" multiplier="1.35" id="kXb-JQ-cyI"/>
                                     <constraint firstItem="RbT-cM-Hiy" firstAttribute="width" secondItem="Dvn-sb-iql" secondAttribute="width" multiplier="0.262391" id="rxb-Of-5a7"/>
+                                    <constraint firstItem="jMM-i8-kHF" firstAttribute="centerX" secondItem="Dvn-sb-iql" secondAttribute="centerX" multiplier="1.35" id="tUJ-Li-D3g"/>
+                                    <constraint firstItem="G6e-rv-4Dt" firstAttribute="centerY" secondItem="Dvn-sb-iql" secondAttribute="centerY" multiplier="0.4" id="uwm-rK-5YP"/>
                                     <constraint firstItem="RbT-cM-Hiy" firstAttribute="height" secondItem="Dvn-sb-iql" secondAttribute="height" multiplier="0.151079" id="vF4-hv-7tb"/>
                                     <constraint firstItem="IVP-bb-N7P" firstAttribute="width" secondItem="Dvn-sb-iql" secondAttribute="width" multiplier="0.346939" id="z1b-xG-NfT"/>
                                     <constraint firstItem="4JK-nc-gxq" firstAttribute="height" secondItem="Dvn-sb-iql" secondAttribute="height" multiplier="0.151079" id="ztH-px-cBg"/>
                                 </constraints>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bwo-0a-Ibg">
-                                <rect key="frame" x="88" y="55" width="144" height="99.5"/>
+                                <rect key="frame" x="114" y="83.666666666666671" width="186" height="152.66666666666663"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -334,7 +367,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6vc-ep-kfh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1063.768115942029" y="118.52678571428571"/>
+            <point key="canvasLocation" x="1060.8695652173915" y="117.39130434782609"/>
         </scene>
     </scenes>
 </document>
