@@ -31,7 +31,7 @@ class DetallesNaveController : UIViewController, UITableViewDelegate, UITableVie
             lblId.text = nave!.id
             lblNivel.text = nave!.nivel
             lblArmamento.text = nave!.armamento
-            imgNave.image = UIImage(named: nave!.imagen)
+            imgNave.image = UIImage(named: "\(nave!.imagen)-2")
             
         }else{
             self.title = "Detalles de Nave"
