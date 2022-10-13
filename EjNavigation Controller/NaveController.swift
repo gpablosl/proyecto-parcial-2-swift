@@ -114,13 +114,13 @@ class NaveController: UIViewController, UITableViewDelegate, UITableViewDataSour
         naves[7].stats.append(Stats(tier: "2", salud: "157", dmg: "80", armadura: "2", escudos: "Si"))
         naves[7].stats.append(Stats(tier: "3", salud: "189", dmg: "99", armadura: "3", escudos: "Si"))
         
-        naves.append(Nave(nombre: "ARC-56", designacion: "Ataque", id: "075TED3J", nivel: "4", armamento: "Cañones", imagen: "Nave9", stats: []))
+        naves.append(Nave(nombre: "ARC-56", designacion: "Ataque", id: "075TED3J", nivel: "Nivel 4", armamento: "Cañones", imagen: "Nave9", stats: []))
         
         naves[8].stats.append(Stats(tier: "1", salud: "155", dmg: "85", armadura: "2", escudos: "No"))
         naves[8].stats.append(Stats(tier: "2", salud: "178", dmg: "99", armadura: "2", escudos: "No"))
         naves[8].stats.append(Stats(tier: "3", salud: "194", dmg: "104", armadura: "3", escudos: "Si"))
         
-        naves.append(Nave(nombre: "AG-773", designacion: "Cañonera", id: "0PLMCV4T", nivel: "5", armamento: "Multiple", imagen: "Nave10", stats: []))
+        naves.append(Nave(nombre: "AG-773", designacion: "Cañonera", id: "0PLMCV4T", nivel: "Nivel 5", armamento: "Multiple", imagen: "Nave10", stats: []))
         
         naves[9].stats.append(Stats(tier: "1", salud: "166", dmg: "150", armadura: "2", escudos: "No"))
         naves[9].stats.append(Stats(tier: "2", salud: "189", dmg: "158", armadura: "3", escudos: "No"))
@@ -150,7 +150,7 @@ class NaveController: UIViewController, UITableViewDelegate, UITableViewDataSour
         naves[13].stats.append(Stats(tier: "2", salud: "260", dmg: "206", armadura: "5", escudos: "Si"))
         naves[13].stats.append(Stats(tier: "3", salud: "297", dmg: "220", armadura: "6", escudos: "Si"))
         
-        naves.append(Nave(nombre: "YGR-99", designacion: "Ataque", id: "433FHT6U", nivel: "Nivel 2", armamento: "Cañones", imagen: "Nave15", stats: []))
+        naves.append(Nave(nombre: "YGR-99", designacion: "Ataque", id: "433FHT6U", nivel: "Nivel 10", armamento: "Cañones", imagen: "Nave15", stats: []))
         
         naves[14].stats.append(Stats(tier: "1", salud: "205", dmg: "104", armadura: "4", escudos: "Si"))
         naves[14].stats.append(Stats(tier: "2", salud: "245", dmg: "133", armadura: "4", escudos: "Si"))
