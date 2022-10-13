@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D1C3B2B28EF396B0062BCE4 /* VCR_OSD_MONO_1.001.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D1C3B2A28EF396B0062BCE4 /* VCR_OSD_MONO_1.001.ttf */; };
 		3D20AD2F28E341F3005C2CF5 /* DetallesNaveController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D20AD2E28E341F3005C2CF5 /* DetallesNaveController.swift */; };
 		3D20AD3128E34E6D005C2CF5 /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D20AD3028E34E6D005C2CF5 /* Stats.swift */; };
 		3D20AD3528E34FFD005C2CF5 /* CeldaStatsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D20AD3428E34FFD005C2CF5 /* CeldaStatsController.swift */; };
@@ -18,10 +17,11 @@
 		3D2851ED28DCB1D900DC51AA /* Nave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2851EC28DCB1D900DC51AA /* Nave.swift */; };
 		3D2851EF28DCB35300DC51AA /* CeldaNaveController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2851EE28DCB35300DC51AA /* CeldaNaveController.swift */; };
 		3D2851F128DCB46F00DC51AA /* NaveController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2851F028DCB46F00DC51AA /* NaveController.swift */; };
+		3DA35C7328F85F3F00CB540D /* VCR_OSD_MONO_1.001.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DA35C7228F85F3F00CB540D /* VCR_OSD_MONO_1.001.ttf */; };
+		3DA35C7528F8649C00CB540D /* song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3DA35C7428F8649B00CB540D /* song.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3D1C3B2A28EF396B0062BCE4 /* VCR_OSD_MONO_1.001.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = VCR_OSD_MONO_1.001.ttf; path = "../../../../../Volumes/STORE N GO/Proyecto_parcial_web_1/VCR_OSD_MONO_1.001.ttf"; sourceTree = "<group>"; };
 		3D20AD2E28E341F3005C2CF5 /* DetallesNaveController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesNaveController.swift; sourceTree = "<group>"; };
 		3D20AD3028E34E6D005C2CF5 /* Stats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stats.swift; sourceTree = "<group>"; };
 		3D20AD3428E34FFD005C2CF5 /* CeldaStatsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaStatsController.swift; sourceTree = "<group>"; };
@@ -34,6 +34,8 @@
 		3D2851EC28DCB1D900DC51AA /* Nave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nave.swift; sourceTree = "<group>"; };
 		3D2851EE28DCB35300DC51AA /* CeldaNaveController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaNaveController.swift; sourceTree = "<group>"; };
 		3D2851F028DCB46F00DC51AA /* NaveController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaveController.swift; sourceTree = "<group>"; };
+		3DA35C7228F85F3F00CB540D /* VCR_OSD_MONO_1.001.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = VCR_OSD_MONO_1.001.ttf; sourceTree = "<group>"; };
+		3DA35C7428F8649B00CB540D /* song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +68,9 @@
 		3D2851D928DCB16D00DC51AA /* EjNavigation Controller */ = {
 			isa = PBXGroup;
 			children = (
+				3DA35C7228F85F3F00CB540D /* VCR_OSD_MONO_1.001.ttf */,
+				3DA35C7428F8649B00CB540D /* song.mp3 */,
 				3D2851DA28DCB16D00DC51AA /* AppDelegate.swift */,
-				3D1C3B2A28EF396B0062BCE4 /* VCR_OSD_MONO_1.001.ttf */,
 				3D2851DE28DCB16D00DC51AA /* Main.storyboard */,
 				3D2851E128DCB16F00DC51AA /* Assets.xcassets */,
 				3D2851E328DCB16F00DC51AA /* LaunchScreen.storyboard */,
@@ -141,9 +144,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D2851E528DCB16F00DC51AA /* LaunchScreen.storyboard in Resources */,
-				3D1C3B2B28EF396B0062BCE4 /* VCR_OSD_MONO_1.001.ttf in Resources */,
+				3DA35C7528F8649C00CB540D /* song.mp3 in Resources */,
 				3D2851E228DCB16F00DC51AA /* Assets.xcassets in Resources */,
 				3D2851E028DCB16D00DC51AA /* Main.storyboard in Resources */,
+				3DA35C7328F85F3F00CB540D /* VCR_OSD_MONO_1.001.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
